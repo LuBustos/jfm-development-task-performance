@@ -36,18 +36,18 @@ And you will see in the browser a page like this:
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/63980760/226130103-6d5a5305-0bbf-4ce7-ab0a-5dea55a8e589.png">
 
 
-## What do you can see in this project?
+## What can you see in this project?
 
-The idea of this assigment is create a react project with webpack and use some react tools to increase the performance of the project.
+The idea of this assigment is to create a React project with Webpack and use some React tools to enhance the performance of the application.
 
-In this case, I use different approach to increase the performance.
+In this case, I am using different approaches to enhance the performance.
 
-1. in Home page, you can see that I import dynamically an Welcome message.
+1. In Home page, you can see that I import dynamically a component (Welcome message).
 
-2. You have an input and a button to generate a list of names, this list is created using useMemo, to increase the performance and try to don't generate many renders
+2. You have an input and a button to generate a list of names, which is created using useMemo, to enhance the performance and try not to generate many renders.
 
-3. the count page is using React.memo, the same as the last point the idea is to increase the performance and try to don't generate renders every time you click in the button.
+3. The count page is using React.memo. Just as the previous point, the idea is to enhance the performance and try not to generate renders every time you click the button.
 
-## A short video throw the page
+## A short video through the page
 https://www.loom.com/share/14cef7a98b9b4fe491891a8305b4b09d
 
